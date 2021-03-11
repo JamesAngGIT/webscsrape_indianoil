@@ -3,7 +3,7 @@ to create new venv
 
 to activate
   venv\Scripts\activate
-  
+
 in gitignore file
   don't include venv folder
   only include scripts
@@ -35,3 +35,11 @@ to view output
   install Hydrogen from atom packages
   python -m pip install ipykernel
   restart atom --> then you'll have jupyter-like output
+
+To add script file to respective venv kernel
+  go to hydrogen settings (File > settings > Install > Hydrogen Settings > DIrectory to
+  start the kernel in > set to: The project directory relative to file.)
+  restart Atom. SHould work.
+  ref: https://stackoverflow.com/questions/62202986/setting-up-a-python-virtual-environment-with-hydrogen-in-atom
+
+  
